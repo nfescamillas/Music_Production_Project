@@ -1,9 +1,7 @@
 """Root URL configuration for the project foundation."""
 
-from django.contrib import admin
-from django.urls import path
+from django.urls import URLPattern, URLResolver
 
 
-urlpatterns = [
-    path("admin/", admin.site.urls),
-]
+# Product routes are introduced by later issues. DEBUG shows Django's welcome page.
+urlpatterns: list[URLPattern | URLResolver] = []
