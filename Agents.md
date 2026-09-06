@@ -1,10 +1,16 @@
-# Commands
+Commands
 
 - `uv sync` - install dependencies
 - `uv run pytest` - the whole suite
 - `uv run pytest tests/test_home.py` - one test file
 
-# Rules
+
+Documents
+
+- `_docs/process.md` - how work is organized
+
+
+Rules
 
 - This is a fully local, Django-based desktop-style application for personal
   Ableton Live production coaching. Do not add cloud storage, cloud audio
